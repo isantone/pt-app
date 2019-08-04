@@ -1,0 +1,12 @@
+<p *ngIf="user$ | async as user; else signWidget">
+  Welcome, {{ user.displayName }}!
+</p>
+
+<ng-template #signWidget>
+  <button
+    (click)="signUser()"
+    mat-stroked-button
+    color="primary"
+    class="sign-button"
+  >Sign In</button>
+</ng-template>

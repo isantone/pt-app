@@ -1,0 +1,15 @@
+@import '_colors';
+
+:host {
+  display: flex;
+
+  padding: 15px;
+
+  background-color: $primary-accent;
+}
+
+.header {
+  &__sign-widget {
+    margin-left: auto;
+  }
+}
