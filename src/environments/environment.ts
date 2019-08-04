@@ -4,6 +4,13 @@
 
 export const environment = {
   production: false,
+
+  firebase: {
+    authDomain: 'tp-app-2d550.firebaseapp.com',
+    databaseURL: 'https://tp-app-2d550.firebaseio.com',
+    projectId: 'tp-app-2d550',
+    appId: '1:917746170206:web:6d2269cfc4e7ecae',
+  },
 };
 
 /*
